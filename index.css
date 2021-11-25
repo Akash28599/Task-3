@@ -1,0 +1,40 @@
+.container{
+    overflow: hidden;
+    width: 100%;
+    height:100vh;
+    background-color:lightblue;
+}
+.tab{
+    float: left;
+    
+}
+.tab-2{
+    margin-left: 50px;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    left:400px;
+    margin-top: 0px;
+    
+    
+}
+.tab-2 input{
+    display:block;
+    margin-bottom: 10px;
+} 
+tr{
+    transition:all .25s ease-in-out;
+    
+}
+tr:hover{
+    background-color:#EEE;cursor: pointer;
+}
+#table{
+    flex-direction: column-reverse;
+    width: 100%;
+    margin-top: 250px;
+} 
+ .tab-1{
+    margin-bottom: 100px;
+    top:250px;
+}
